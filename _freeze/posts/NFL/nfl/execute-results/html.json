@@ -1,0 +1,14 @@
+{
+  "hash": "057d5bde37f35726284358861ec50f07",
+  "result": {
+    "markdown": "---\ntitle: \"NFL\"\nauthor: \"Quinn Campbell\"\ndate: \"2023-12-17\"\ncategories: [nfl, code, analysis]\nimage: \"image.png\"\n\nexecute: \n  warning: false\n  message: false\n  \ntoc: true\n---\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

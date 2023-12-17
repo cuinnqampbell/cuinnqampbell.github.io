@@ -1,7 +1,7 @@
 ---
-title: "Post With Code"
-author: "YOUR NAME"
-date: "2023-10-30"
+title: "Post With Code for hoopR"
+author: "Quinn Campbell"
+date: "2023-12-17"
 categories: [news, code, analysis]
 image: "image.jpg"
 ---
@@ -9,5 +9,5 @@ image: "image.jpg"
 This is a post with executable code.
 
 ```{r}
-1 + 1
+install.packages("hoopR")
 ```

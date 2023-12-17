@@ -5,7 +5,7 @@
       xmlns:dc="http://purl.org/dc/elements/1.1/" 
       version="2.0">
 <channel>
-<title>YOUR NAME</title>
+<title>Quinn Campbell</title>
 <link>https://bcdanl.github.io/blog-listing.html</link>
 <atom:link href="https://bcdanl.github.io/blog-listing.xml" rel="self" type="application/rss+xml"/>
 <description></description>
@@ -39,7 +39,7 @@
   <media:content url="https://bcdanl.github.io/posts/post-with-code/image.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-  <title>Welcome To My Blog</title>
+  <title>NBA Data</title>
   <dc:creator>Tristan O&#39;Malley</dc:creator>
   <link>https://bcdanl.github.io/posts/welcome/index.html</link>
   <description><![CDATA[ 
@@ -47,8 +47,7 @@
 
 
 
-<p>This is the first post in a Quarto blog. Welcome!</p>
-<p><img src="https://bcdanl.github.io/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
+<p>This is the blog post for the NBA data we have assessed. Welcome!><p><img src="https://bcdanl.github.io/posts/welcome/thumbnail.jpg" class="img-fluid"></p>
 <p>Since this post doesn’t specify an explicit <code>image</code>, the first image in the post will be used in the listing page of posts.</p>
 
 

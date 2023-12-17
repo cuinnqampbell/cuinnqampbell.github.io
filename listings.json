@@ -2,12 +2,11 @@
   {
     "listing": "/blog-listing.html",
     "items": [
-      "/posts/nba/nba.html",
-      "/posts/NFL/nfl.html",
-      "/posts/beer-markets/beer-markets.html",
-      "/posts/starwars/starwars_df.html",
+      "/posts/welcome/index.html",
       "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html"
+      "/posts/NFL/nfl.html",
+      "/posts/nba/nba.html",
+      "/posts/starwars/starwars_df.html"
     ]
   }
 ]

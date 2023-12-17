@@ -9,33 +9,33 @@ about:
   links:
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/quinn-campbell-010a922a4/
     - icon: instagram
       text: Instagram
-      href: https://instagram.com
+      href: https://www.instagram.com/cuinnqampbell/
     - icon: github
       text: GitHub
-      href: https://github.com
+      href: https://github.com/cuinnqampbell/cuinnqampbell.github.io
     - icon: file-earmark-pdf
       text: Resumé
       href: https://GITHUB_USERNAME.github.io/resume-example.pdf
     - icon: mailbox
       text: Email
-      href: mailto:YOUR_EMAIL@geneseo.edu
+      href: mailto:qlc2@geneseo.edu
 
 ---
 
 
-Finley Malloc majors in Data Analytics at SUNY Geneseo. When not working on data analytics, Finley enjoys spending time unicycling and playing with her pet iguana.
+Quinn Campbell is currently an undeclared major at SUNY Geneseo. When Quinn is not studying hard for his DANL200 class, he enjoys hanging out with friends and playing sports.
 
 ## Education
 
 State University of New York at Geneseo | Geneseo, NY <br>
-B.S. in Data Analytics | Aug 2022 - May 2026 <br>
-Minor in Business Administration 
+| Aug 2022 - May 2026 <br>
+
 
 ## Experience
 
-Starbucks Analytics | Data Analyst Intern | May 2024 - Aug 2024
+DANL200 Class | Aug 2023 2024 - Dec 2023
 
 

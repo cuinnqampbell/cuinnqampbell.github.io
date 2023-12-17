@@ -2,11 +2,9 @@
 title: DANL Project
 subtitle: "Data-Driven Mastery: Unlocking Business Potential"
 author: 
-  - Name 1
-  - Name 2
-  - Name 3
-  - Name 4
-  - Name 5
+  - Quinn Campbell
+  - Andrew Johnson
+  - Tristan Costello
 
 toc: true
 toc-title: "Table of Contents"
@@ -47,7 +45,7 @@ theme_set(theme_ipsum()+
 
 # Introduction
 
-About this project :clap:
+About This Project :clap:
 
 ```{r}
 1 + 1
@@ -56,7 +54,11 @@ About this project :clap:
 
 # Data
 
-The data.frame `mpg` contains a subset of the fuel economy data that the EPA makes available on [https://fueleconomy.gov/](https://fueleconomy.gov/). It contains only models which had a new release every year between 1999 and 2008 - this was used as a proxy for the popularity of the car. :oncoming_automobile:
+hoopR is an R package for working with men’s basketball data.
+
+The package has functions to access live play by play and box score data from ESPN with shot locations when available. As of version 1.3.0, hoopR is also a full NBA Stats API wrapper with 127 functions added in this release.
+
+It is additionally a scraping and aggregating interface for Ken Pomeroy’s men’s college basketball statistics website, kenpom.com. It provides users with an active subscription the capability to scrape the website tables and analyze the data for themselves.
 
 
 ## Summary Statistics
