@@ -1,9 +1,9 @@
 ---
-title: "NFL"
+title: "Milwaukee Bucks Record as Favorite at Home"
 author: "Quinn Campbell"
 date: "2023-12-17"
-categories: [nfl, code, analysis]
-image: "image.png"
+categories: [Home, Analysis]
+image: "image.jpg"
 
 execute: 
   warning: false
@@ -32,3 +32,16 @@ theme_set(theme_ipsum()+
                 )
           )
 ```
+
+
+## What I Found
+
+In my data analysis of the occurrences in which the Milwaukee Bucks were both at home and favorited so far this season, there were 15 games that matched the description. Of those 15 games, the Bucks won 13 of them, leaving them with a 13-2 record when playing as the home favorites. 
+
+![](home-favorites.png)
+
+
+[1] In this figure, we can see that in the 15 games the Bucks played as home favorites, they won 13 of them. The 2 games during which circumstances they lost are highlighted in yellow.
+
+
+

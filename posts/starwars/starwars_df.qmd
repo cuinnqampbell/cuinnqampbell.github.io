@@ -1,9 +1,9 @@
 ---
-title: "Starwars"
-author: "Your Name"
-date: "2023-10-30"
-categories: [starwars, code, analysis]
-image: "image.png"
+title: "Timeouts Called After Away Team Point"
+author: "Quinn Campbell"
+date: "2023-12-17"
+categories: [Timeout, NBA, Analysis]
+image: "coach-timeout.avif"
 
 execute: 
   warning: false
@@ -33,66 +33,13 @@ theme_set(theme_ipsum()+
           )
 ```
 
-Let's analyze the `starwars` data:
-
-```{r}
-starwars <- read_csv("https://bcdanl.github.io/data/starwars.csv")
-```
 
 
-```{r}
-#| results: asis
-rmarkdown::paged_table(starwars) 
-```
+## What I Found
 
 
+During my analysis, I found that the Milwaukee Bucks have been scored on 943 times at home. Of those 943 times, the Bucks have not called a timeout following the play a single time. 
 
-## Variable Description for `starwars` data.frame
+![](home-timeout.png)
 
-The following describes the variables in the `starwars` data.frame.
-
-
-- `films`
-List of films the character appeared in
-
-- `name`
-Name of the character
-
-- `species`
-Name of species
-
-- `height`
-Height (cm)
-
-- `mass`
-Weight (kg)
-
-- `hair_color`, `skin_color`, `eye_color`
-Hair, skin, and eye colors
-
-- `birth_year`
-Year born (BBY = Before Battle of Yavin)
-
-- `sex`
-The biological sex of the character, namely male, female, hermaphroditic, or none (as in the case for Droids).
-
-- `gender`
-The gender role or gender identity of the character as determined by their personality or the way they were programmed (as in the case for Droids).
-
-- `homeworld`
-Name of homeworld
-
-
-## Human vs. Droid
-
-```{r}
-ggplot(data = 
-         starwars %>% 
-         filter(species %in% c("Human", "Droid"))) +
-  geom_boxplot(aes(x = species, y = mass, 
-                   fill = species),
-               show.legend = FALSE)
-
-```
-
-
+[1] I have attached an image of the graph dignifying the results I previously stated. I even went through all 943 entries myself to ensure it was correct, and it is. 

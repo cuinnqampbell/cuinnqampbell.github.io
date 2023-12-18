@@ -2,12 +2,18 @@
 title: "Post With Code for hoopR"
 author: "Quinn Campbell"
 date: "2023-12-17"
-categories: [news, code, analysis]
-image: "image.jpg"
+categories: [News, Code]
+image: "rstudio_104598.png"
 ---
 
-This is a post with executable code.
+This is a post with executable code. The code will give the ability to read the data set we used for the analysis. Happy hoopR!
 
 ```{r}
-install.packages("hoopR")
+nba<-read.csv("https://cuinnqampbell.github.io/nbamilwaukee.csv")
+```
+
+
+```{r}
+#| results: asis
+rmarkdown::paged_table(nba) 
 ```

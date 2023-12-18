@@ -1,7 +1,7 @@
 {
-  "hash": "057d5bde37f35726284358861ec50f07",
+  "hash": "df1dbfed086474fdd178378a046ef80b",
   "result": {
-    "markdown": "---\ntitle: \"NFL\"\nauthor: \"Quinn Campbell\"\ndate: \"2023-12-17\"\ncategories: [nfl, code, analysis]\nimage: \"image.png\"\n\nexecute: \n  warning: false\n  message: false\n  \ntoc: true\n---\n\n",
+    "markdown": "---\ntitle: \"Milwaukee Bucks Record as Favorite at Home\"\nauthor: \"Quinn Campbell\"\ndate: \"2023-12-17\"\ncategories: [nfl, code, analysis]\nimage: \"image.jpg\"\n\nexecute: \n  warning: false\n  message: false\n  \ntoc: true\n---\n\n\n\n\n\n## What I Found\n\nIn my data analysis of the occurrences in which the Milwaukee Bucks were both at home and favorited so far this season, there were 15 games that matched the description. Of those 15 games, the Bucks won 13 of them, leaving them with a 13-2 record when playing as the home favorites. \n\n![](home-favorites.png)\n\n\n[1] In this figure, we can see that in the 15 games the Bucks played as home favorites, they won 13 of them. The 2 games during which circumstances they lost are highlighted in yellow.\n\n\n\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

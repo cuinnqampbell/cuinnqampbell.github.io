@@ -1,9 +1,9 @@
 ---
-title: "NBA"
+title: "Milwaukee Bucks Free Throw Percentage: First vs. Second"
 author: "Quinn Campbell"
 date: "2023-12-17"
-categories: [nba, code, analysis]
-image: "image.png"
+categories: [NBA, Graphs, Analysis]
+image: "giannis-free-throw.avif"
 
 execute: 
   warning: false
@@ -33,18 +33,16 @@ theme_set(theme_ipsum()+
           )
 ```
 
-Let's analyze the `starwars` data:
+Let's analyze the `nba` data:
 
 ```{r}
-progressr::with_progress({
-  nba_pbp <- hoopR::load_nba_pbp()
-})
+nba<-read_csv("https://cuinnqampbell.github.io/nbamilwaukee.csv")
 ```
 
 
 ```{r}
 #| results: asis
-rmarkdown::paged_table(nba_pbp) 
+rmarkdown::paged_table(nba) 
 ```
 
 
@@ -52,10 +50,55 @@ rmarkdown::paged_table(nba_pbp)
 ## Variable Description for `nba` data.frame
 
 
-hoopR is an R package for working with men’s basketball data.
 
-The package has functions to access live play by play and box score data from ESPN with shot locations when available. As of version 1.3.0, hoopR is also a full NBA Stats API wrapper with 127 functions added in this release.
+Variable Descriptions:
 
-It is additionally a scraping and aggregating interface for Ken Pomeroy’s men’s college basketball statistics website, kenpom.com. It provides users with an active subscription the capability to scrape the website tables and analyze the data for themselves.
+type_text: Type of play listed
 
-During our data analysis, we found that
+text: Result of play listed
+
+away_score: Score of away team at time of play
+
+home_score: Score of home team at time of play
+
+period_number: Period in which the play occurred
+
+clock_display_value: Time in period when play occurred
+
+scoring_play: If 'TRUE,' play resulted in a score change. If 'FALSE,' play did not result in score change
+
+shooting_play: If 'TRUE,' play involved a shot. If 'FALSE,' play did not involve a shot
+
+season: year of season when play occurred
+
+home_team_name: Name of home team
+
+away_team_name: Name of away team
+
+time: Time at which play occurred
+
+
+
+## What I Found
+
+
+In my data analysis, I found that the Milwaukee Bucks had 201 makes on 273 attempts, meaning they shot 73.626% from the free throw line on their first attempt.
+
+
+
+![](free-throw-plot.png)
+
+
+[1] While these results don't reveal much, when compared to the results in figure [2], they tell us something important.
+
+
+
+
+Additionally, I found that the Milwaukee Bucks had 223 makes on 273 attempts, meaning they shot 81.685% from the free throw line on their second attempt: an 8.059% difference!
+
+
+
+![](second-free-throw.png)
+
+
+[2] The results from the second free throw, when compared to the results from the first, tell us that the players shoot more efficiently on their second attempt. This may be because they need a warmup shot, possible corrections, and many other factors

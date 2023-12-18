@@ -2,9 +2,9 @@
   {
     "objectID": "project.html",
     "href": "project.html",
-    "title": "DANL Project",
+    "title": "Data Analysis",
     "section": "",
-    "text": "About This Project 👏\n\n1 + 1\n\n[1] 2"
+    "text": "Let’s analyze the nba data:\nnba&lt;-read_csv(\"https://cuinnqampbell.github.io/nbamilwaukee.csv\")"
   },
   {
     "objectID": "project.html#summary-statistics",
@@ -23,9 +23,9 @@
   {
     "objectID": "posts/starwars/starwars_df.html",
     "href": "posts/starwars/starwars_df.html",
-    "title": "Starwars",
+    "title": "Timeouts Called After Away Team Point",
     "section": "",
-    "text": "Let’s analyze the starwars data:\nstarwars &lt;- read_csv(\"https://bcdanl.github.io/data/starwars.csv\")"
+    "text": "During my analysis, I found that the Milwaukee Bucks have been scored on 943 times at home. Of those 943 times, the Bucks have not called a timeout following the play a single time.\n\n[1] I have attached an image of the graph dignifying the results I previously stated. I even went through all 943 entries myself to ensure it was correct, and it is."
   },
   {
     "objectID": "posts/starwars/starwars_df.html#variable-description-for-starwars-data.frame",
@@ -46,7 +46,7 @@
     "href": "index.html",
     "title": "Quinn Campbell",
     "section": "",
-    "text": "Quinn Campbell is currently an undeclared major at SUNY Geneseo. When Quinn is not studying hard for his DANL200 class, he enjoys hanging out with friends and playing sports."
+    "text": "Quinn Campbell is currently an undeclared major at SUNY Geneseo. When Quinn is not studying hard for his DANL200 class, he enjoys hanging out with friends, playing sports and listening to music."
   },
   {
     "objectID": "index.html#education",
@@ -67,34 +67,76 @@
     "href": "blog-listing.html",
     "title": "Insightful Analytics",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nDec 17, 2023\n\n\nQuinn Campbell\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code for hoopR\n\n\n\n\n\n\n\n\n\nDec 17, 2023\n\n\nQuinn Campbell\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nNFL\n\n\n\n\n\n\n\n\n\nDec 17, 2023\n\n\nQuinn Campbell\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nNBA\n\n\n\n\n\n\n\n\n\nDec 17, 2023\n\n\nQuinn Campbell\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nStarwars\n\n\n\n\n\n\n\n\n\nOct 30, 2023\n\n\nYour Name\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\n\n\nDec 17, 2023\n\n\nQuinn Campbell\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nTimeouts Called After Away Team Point\n\n\n\n\n\n\n\n\n\nDec 17, 2023\n\n\nQuinn Campbell\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code for hoopR\n\n\n\n\n\n\n\n\n\nDec 17, 2023\n\n\nQuinn Campbell\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nMilwaukee Bucks Record as Favorite at Home\n\n\n\n\n\n\n\n\n\nDec 17, 2023\n\n\nQuinn Campbell\n\n\n2 min\n\n\n\n\n\n\n  \n\n\n\n\nMilwaukee Bucks Free Throw Percentage: First vs. Second\n\n\n\n\n\n\n\n\n\nDec 17, 2023\n\n\nQuinn Campbell\n\n\n3 min\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/nba/nba.html",
     "href": "posts/nba/nba.html",
-    "title": "NBA",
+    "title": "Milwaukee Bucks Free Throw Percentage: Home vs. Away",
     "section": "",
-    "text": "Let’s analyze the starwars data:\nprogressr::with_progress({\n  nba_pbp &lt;- hoopR::load_nba_pbp()\n})"
+    "text": "Let’s analyze the nba data:\nnba&lt;-read_csv(\"https://cuinnqampbell.github.io/nbamilwaukee.csv\")"
   },
   {
     "objectID": "posts/nba/nba.html#variable-description-for-nba-data.frame",
     "href": "posts/nba/nba.html#variable-description-for-nba-data.frame",
-    "title": "NBA",
+    "title": "Milwaukee Bucks Free Throw Percentage: Home vs. Away",
     "section": "Variable Description for nba data.frame",
-    "text": "Variable Description for nba data.frame\nhoopR is an R package for working with men’s basketball data.\nThe package has functions to access live play by play and box score data from ESPN with shot locations when available. As of version 1.3.0, hoopR is also a full NBA Stats API wrapper with 127 functions added in this release.\nIt is additionally a scraping and aggregating interface for Ken Pomeroy’s men’s college basketball statistics website, kenpom.com. It provides users with an active subscription the capability to scrape the website tables and analyze the data for themselves.\nDuring our data analysis, we found that"
+    "text": "Variable Description for nba data.frame\nVariable Descriptions:\ntype_text: Type of play listed\ntext: Result of play listed\naway_score: Score of away team at time of play\nhome_score: Score of home team at time of play\nperiod_number: Period in which the play occurred\nclock_display_value: Time in period when play occurred\nscoring_play: If ‘TRUE,’ play resulted in a score change. If ‘FALSE,’ play did not result in score change\nshooting_play: If ‘TRUE,’ play involved a shot. If ‘FALSE,’ play did not involve a shot\nseason: year of season when play occurred\nhome_team_name: Name of home team\naway_team_name: Name of away team\ntime: Time at which play occurred"
   },
   {
     "objectID": "posts/post-with-code/index.html",
     "href": "posts/post-with-code/index.html",
     "title": "Post With Code for hoopR",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "This is a post with executable code. The code will give the ability to read the data set we used for the analysis. Happy hoopR!\n\nnba&lt;-read.csv(\"https://cuinnqampbell.github.io/nbamilwaukee.csv\")\n\nrmarkdown::paged_table(nba)"
   },
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
     "title": "Welcome To My Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Thank you for being here!"
+    "text": "This blog is made to answer the analysis questions stated in the ‘Project’ section of my website. As a reminder, we will answer the following questions:\nWhat is the team free throw percentage for the Milwaukee Bucks on the first free throw during the 2024 season so far?\nWhat is the team free throw percentage for the Milwaukee Bucks on the second free throw during the 2024 season so far?\nWhen favorited at home, how often do the Milwaukee Bucks win that game?\nHow often do the Milwaukee Bucks call a timeout when the away team scores?\nI hope you enjoy the website and analysis. I worked very hard on this. Thank you for being here!"
+  },
+  {
+    "objectID": "project.html#variable-description-for-nba-data.frame",
+    "href": "project.html#variable-description-for-nba-data.frame",
+    "title": "Data Analysis",
+    "section": "1 Variable Description for nba data.frame",
+    "text": "1 Variable Description for nba data.frame\nhoopR is an R package for working with men’s basketball data.\nThe package has functions to access live play by play and box score data from ESPN with shot locations when available. As of version 1.3.0, hoopR is also a full NBA Stats API wrapper with 127 functions added in this release.\nIt is additionally a scraping and aggregating interface for Ken Pomeroy’s men’s college basketball statistics website, kenpom.com. It provides users with an active subscription the capability to scrape the website tables and analyze the data for themselves.\nVariable Descriptions:\ntype_text: Type of play listed\ntext: Result of play listed\naway_score: Score of away team at time of play\nhome_score: Score of home team at time of play\nperiod_number: Period in which the play occurred\nclock_display_value: Time in period when play occurred\nscoring_play: If ‘TRUE,’ play resulted in a score change. If ‘FALSE,’ play did not result in score change\nshooting_play: If ‘TRUE,’ play involved a shot. If ‘FALSE,’ play did not involve a shot\nseason: year of season when play occurred\nhome_team_name: Name of home team\naway_team_name: Name of away team\ntime: Time at which play occurred"
+  },
+  {
+    "objectID": "project.html#analysis-questions",
+    "href": "project.html#analysis-questions",
+    "title": "Data Analysis",
+    "section": "2 Analysis Questions",
+    "text": "2 Analysis Questions\nWhat is the team free throw percentage for the Milwaukee Bucks on the first free throw during the 2024 season so far?\nWhat is the team free throw percentage for the Milwaukee Bucks on the second free throw during the 2024 season so far?\nWhen favorited at home, how often do the Milwaukee Bucks win that game?\nHow often do the Milwaukee Bucks call a timeout when they away team scores?\nAll of these questions will be answered in separate blog posts in the ‘Blog’ section of my website. Thank you for reading! 🏀"
+  },
+  {
+    "objectID": "posts/nba/nba.html#what-i-found",
+    "href": "posts/nba/nba.html#what-i-found",
+    "title": "Milwaukee Bucks Free Throw Percentage: Home vs. Away",
+    "section": "What I Found",
+    "text": "What I Found\nIn my data analysis, I found that the Milwaukee Bucks had 201 makes on 273 attempts, meaning they shot 73.626% from the free throw line on their first attempt.\n\n[1] While these results don’t reveal much, when compared to the results in figure [2], they tell us something important.\nAdditionally, I found that the Milwaukee Bucks had 223 makes on 273 attempts, meaning they shot 81.685% from the free throw line on their second attempt: an 8.059% difference!\n\n[2] The results from the second free throw, when compared to the results from the first, tell us that the players shoot more efficiently on their second attempt. This may be because they need a warmup shot, possible corrections, and many other factors"
+  },
+  {
+    "objectID": "posts/NFL/nfl.html",
+    "href": "posts/NFL/nfl.html",
+    "title": "Milwaukee Bucks Record as Favorite at Home",
+    "section": "",
+    "text": "In my data analysis of the occurrences in which the Milwaukee Bucks were both at home and favorited so far this season, there were 15 games that matched the description. Of those 15 games, the Bucks won 13 of them, leaving them with a 13-2 record when playing as the home favorites.\n\n[1] In this figure, we can see that in the 15 games the Bucks played as home favorites, they won 13 of them. The 2 games during which circumstances they lost are highlighted in yellow."
+  },
+  {
+    "objectID": "posts/NFL/nfl.html#what-i-found",
+    "href": "posts/NFL/nfl.html#what-i-found",
+    "title": "Milwaukee Bucks Record as Favorite at Home",
+    "section": "",
+    "text": "In my data analysis of the occurrences in which the Milwaukee Bucks were both at home and favorited so far this season, there were 15 games that matched the description. Of those 15 games, the Bucks won 13 of them, leaving them with a 13-2 record when playing as the home favorites.\n\n[1] In this figure, we can see that in the 15 games the Bucks played as home favorites, they won 13 of them. The 2 games during which circumstances they lost are highlighted in yellow."
+  },
+  {
+    "objectID": "posts/starwars/starwars_df.html#what-i-found",
+    "href": "posts/starwars/starwars_df.html#what-i-found",
+    "title": "Timeouts Called After Away Team Point",
+    "section": "",
+    "text": "During my analysis, I found that the Milwaukee Bucks have been scored on 943 times at home. Of those 943 times, the Bucks have not called a timeout following the play a single time.\n\n[1] I have attached an image of the graph dignifying the results I previously stated. I even went through all 943 entries myself to ensure it was correct, and it is."
   }
 ]

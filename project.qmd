@@ -1,10 +1,12 @@
 ---
-title: DANL Project
-subtitle: "Data-Driven Mastery: Unlocking Business Potential"
+title: Data Analysis
+subtitle: "Analysis of NBA Data for Milwaukee Bucks"
 author: 
   - Quinn Campbell
   - Andrew Johnson
   - Tristan Costello
+  - Josh Lefkowicz
+  - Hannah Chisholm
 
 toc: true
 toc-title: "Table of Contents"
@@ -20,8 +22,11 @@ execute:
 
 from: markdown+emoji
 ---
-```{r setup}
+```{r}
 #| include: false
+
+library(knitr)
+library(rmarkdown)
 library(tidyverse)
 library(skimr)
 library(ggthemes)
@@ -29,30 +34,32 @@ library(hrbrthemes)
 
 theme_set(theme_ipsum()+
           theme(strip.background =element_rect(fill="lightgray"),
-                axis.title.x = 
-                  element_text(angle = 0,
-                               size = rel(1.33),
-                               margin = margin(10,0,0,0)),
-                axis.title.y = 
-                  element_text(angle = 0,
-                               size = rel(1.33),
-                               margin = margin(0,10,0,0))
+                axis.title.x  = element_text(angle = 0,
+                                            size = rel(1.5),
+                                            margin = margin(10,0,0,0)),
+                axis.title.y  = element_text(angle = 0,
+                                            size = rel(1.5),
+                                            margin = margin(0,10,0,0))
                 )
           )
 ```
 
-
-
-# Introduction
-
-About This Project :clap:
+Let's analyze the `nba` data:
 
 ```{r}
-1 + 1
+nba<-read_csv("https://cuinnqampbell.github.io/nbamilwaukee.csv")
 ```
 
 
-# Data
+```{r}
+#| results: asis
+rmarkdown::paged_table(nba) 
+```
+
+
+
+## Variable Description for `nba` data.frame
+
 
 hoopR is an R package for working with men’s basketball data.
 
@@ -60,35 +67,43 @@ The package has functions to access live play by play and box score data from ES
 
 It is additionally a scraping and aggregating interface for Ken Pomeroy’s men’s college basketball statistics website, kenpom.com. It provides users with an active subscription the capability to scrape the website tables and analyze the data for themselves.
 
+Variable Descriptions:
 
-## Summary Statistics
+type_text: Type of play listed
 
-```{r}
-mpg <- ggplot2::mpg
-```
+text: Result of play listed
 
-```{r}
-#| results: asis
-#| echo: false
-rmarkdown::paged_table(mpg) 
-```
+away_score: Score of away team at time of play
 
+home_score: Score of home team at time of play
 
-```{r}
-skim(mpg) %>% 
-  select(-n_missing)
-```
+period_number: Period in which the play occurred
 
+clock_display_value: Time in period when play occurred
 
-## MPG and a Type of Cars
-The following boxplot shows how the distribution of highway MPG (`hwy`) varies by a type of cars (`class`) :blue_car: :truck: :minibus:.
+scoring_play: If 'TRUE,' play resulted in a score change. If 'FALSE,' play did not result in score change
 
+shooting_play: If 'TRUE,' play involved a shot. If 'FALSE,' play did not involve a shot
 
-```{r}
-ggplot(data = mpg) +
-  geom_boxplot(aes(x = class, y = hwy, fill = class),
-               show.legend = F) +
-  labs(x = "Class", y = "Highway\nMPG") 
-```
+season: year of season when play occurred
+
+home_team_name: Name of home team
+
+away_team_name: Name of away team
+
+time: Time at which play occurred
 
 
+## Analysis Questions
+
+
+What is the team free throw percentage for the Milwaukee Bucks on the first free throw during the 2024 season so far?
+
+What is the team free throw percentage for the Milwaukee Bucks on the second free throw during the 2024 season so far?
+
+When favorited at home, how often do the Milwaukee Bucks win that game?
+
+How often do the Milwaukee Bucks call a timeout when they away team scores?
+
+
+All of these questions will be answered in separate blog posts in the 'Blog' section of my website. Thank you for reading! :basketball:

@@ -2,11 +2,27 @@
 title: "Welcome To My Blog"
 author: "Quinn Campbell"
 date: "2023-12-17"
-categories: [news]
+categories: [News]
 ---
 
-This is the first post in a Quarto blog. Thank you for being here!
+This blog is made to answer the analysis questions stated in the 'Project' section of my website. As a reminder, we will answer the following questions:
 
-![](thumbnail.jpg)
+
+
+
+What is the team free throw percentage for the Milwaukee Bucks on the first free throw during the 2024 season so far?
+
+What is the team free throw percentage for the Milwaukee Bucks on the second free throw during the 2024 season so far?
+
+When favorited at home, how often do the Milwaukee Bucks win that game?
+
+How often do the Milwaukee Bucks call a timeout when the away team scores?
+
+
+
+
+I hope you enjoy the website and analysis. I worked very hard on this. Thank you for being here!
+
+![](man-in-jersey.png)
 
 
